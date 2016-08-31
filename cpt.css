@@ -1,100 +1,105 @@
 html{
-
+	
+}
+body{
+	position: fixed;
+	width:100%;
+	height:100%;
+	background-image: url("http://wallpaperbeta.com/wallpaper_gray/gray_band_flame_line_gradient_abstract_hd-wallpaper-241118.jpg");
+	background-size:cover;
 
 }
 #BANNER{
 	background-color:#A9A9A9;
-	background-size: cover;
-	height:200px;
+	position:fixed;
+	background-size: contain;
+	height:20%;
 	width:100%;
-	position:absolute;
-	float:top;
-	top:0;
-	left:0;
-	right:0;
-	clear:left;
+	left:0%;
+	top:0%;
 }
 
 #logo{
-	height:25%;
-	width: 45%;
-	position: fixed;
-	top:0;
-	left:0;
+	position: relative;
+	background-image: url("http://i1030.photobucket.com/albums/y368/C_P_T/WEB/CPT%20Concepts%20Logo%20Transparent_zpsiqgtw67a.png");
+	background-repeat: no-repeat;
+	background-size:contain;
+	height:14%;
+	width: 55%;
+	top:-1%;
+	left:-.5%;
 }
 
 #toolbar{
+	position:relative;
 	background-color:#000;
 	height:10%; 
-	width:100%;
-	position:absolute;
-	top:140px;
-	left:0;
+	width:110%;
+	top:-1%;
+	left:-5%;
 }
 #lbar{
-	position:fixed;
+	position:relative;
 	background-color: #000;
-	height: 600px;
-	width:250px;
-	top:25%;
-	left:0;
-	float:left;
-	clear:left;
+	height: 80%;
+	width:25%;
+	top:-2%;
+	left:-2%;
 }
 
 #btn{
-	position: fixed;
-	margin-top: 5%;
+	position: relative;
 	background-image: url("http://imgs.pbnation.com/index/logo.png");
-	top:5%;
-	right:0%;
-	height:45px;
-	width:180px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height:25%;
+	width:15%;
+	left:85%
+	
 
 }
 
 #btn:hover{
-	height:50px;
-	width:200px;
+	height:25%;
+	width:20%;
 	background-color:#800000;
 	background-repeat: no-repeat;
-
 }
 
 #btn2{
-	position: fixed;
-	margin-top: 0%;
+	position: relative;
 	background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/x-locale/shopping-cart/cart-sprite/sprite-Prime-200._CB359750493_.png");
-	height:32px;
-	width:114px;
-	right:0;
-	top:0%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height:25%;
+	width:15%;
+	left:85%;
+
+
+	
 	
 }
 
 #btn2:hover{
-	height:5%;
-	width:15%;
+	height:25%;
+	width:20%;
 	background-color:#800000;
 	background-repeat: no-repeat;
 
 }
 #btn3{
-	position:fixed;
-	background-size: contain;
+	position:relative;
 	background-image: url( "http://heroestoo.org/wp-content/uploads/2015/10/grabcad-logo-vector21.png");
-	position: fixed;
-	margin-top: 2.5%;
-	height:5%;
-	width: 15%;
-	top:0;
-	right:0%;
 	background-repeat: no-repeat;
-	
+	background-size: contain;
+	height:25%;
+	width: 25%;
+	right:-85%;
+
 }
 #btn3:hover{
-	height:5%;
-	width:15%;
+	height:25%;
+	width:20%;
 	background-color:#800000;
 	background-repeat: no-repeat;
 
