@@ -18,35 +18,6 @@ body{
 	left:0%;
 	top:0%;
 }
-
-#logo{
-	position: relative;
-	background-image: url("http://i1030.photobucket.com/albums/y368/C_P_T/WEB/CPT%20Concepts%20Logo%20Transparent_zpsiqgtw67a.png");
-	background-repeat: no-repeat;
-	background-size:contain;
-	height:14%;
-	width: 55%;
-	top:-1%;
-	left:-.5%;
-}
-
-#toolbar{
-	position:relative;
-	background-color:#000;
-	height:10%; 
-	width:110%;
-	top:-1%;
-	left:-5%;
-}
-#lbar{
-	position:relative;
-	background-color: #000;
-	height: 80%;
-	width:25%;
-	top:-2%;
-	left:-2%;
-}
-
 #btn{
 	position: relative;
 	background-image: url("http://imgs.pbnation.com/index/logo.png");
@@ -62,7 +33,7 @@ body{
 #btn:hover{
 	height:25%;
 	width:20%;
-	background-color:#800000;
+	background-color:#00F5ff;
 	background-repeat: no-repeat;
 }
 
@@ -83,7 +54,7 @@ body{
 #btn2:hover{
 	height:25%;
 	width:20%;
-	background-color:#800000;
+	background-color:#00F5ff;
 	background-repeat: no-repeat;
 
 }
@@ -100,7 +71,143 @@ body{
 #btn3:hover{
 	height:25%;
 	width:20%;
-	background-color:#800000;
+	background-color:#00F5ff;
 	background-repeat: no-repeat;
 
+}
+
+#logo{
+	position: relative;
+	background-image: url("http://i1030.photobucket.com/albums/y368/C_P_T/WEB/CPT%20Concepts%20Logo%20Transparent_zpsiqgtw67a.png");
+	background-repeat: no-repeat;
+	background-size:contain;
+	height:14%;
+	width: 55%;
+	top:-1%;
+	left:-.5%;
+}
+/*TOOLBAR BUTTONS*/
+#toolbar{
+	position:relative;
+	background-color:#000;
+	height:10%; 
+	width:110%;
+	top:-1%;
+	left:-5%;
+}
+#btn9{
+	position: relative;
+	background-color: #A9A9A9;
+	height:80%;
+	width:15%;
+	top:10%;
+	left:35%;
+}
+#btn9:hover{
+	background-color:#00F5ff;
+	
+}
+#btn10{
+	position: relative;
+	background-color: #A9A9A9;
+	height:80%;
+	width:15%;
+	top:-70%;
+	left:50%;
+
+}
+#btn10:hover{
+	background-color:#00F5ff;
+	
+}
+#btn11{
+	position: relative;
+	background-color: #A9A9A9;
+	height:80%;
+	width:15%;
+	top:-150%;
+	left:65%;
+
+}
+#btn11:hover{
+	background-color:#00F5ff;
+	
+}
+#btn12{
+	position: relative;
+	background-color: #A9A9A9;
+	height:80%;
+	width:15%;
+	top:-230%;
+	left:80%;
+}
+#btn12:hover{
+	background-color:#00F5ff;
+	
+}
+/*LEFT SIDE BUTTONS*/
+#lbar{
+	position:relative;
+	background-color: #000;
+	height: 80%;
+	width:20%;
+	top:-1%;
+	left:-1%
+
+}
+
+#btn4{
+	position: relative;
+	background-color: #A9A9A9;
+	height:10%;
+	width:80%;
+	margin-bottom: 5%;
+	margin-left:10%;
+}
+#btn4:hover{
+	width:85%;
+}
+#btn5{
+	position: relative;
+	background-color: #A9A9A9;
+	height:10%;
+	width:80%;
+	margin-bottom: 5%;
+	margin-left:10%;
+}
+#btn5:hover{
+	width:85%;
+}
+#btn6{
+	position: relative;
+	background-color: #A9A9A9;
+	height:10%;
+	width:80%;
+	margin-bottom: 5%;
+	margin-left:10%;
+}
+#btn6:hover{
+	width:85%;
+}
+#btn7{
+	position: relative;
+	background-color: #A9A9A9;
+	height:10%;
+	width:80%;
+	margin-bottom: 5%;
+	margin-left:10%;
+}
+#btn7:hover{
+	width:85%;
+}
+#btn8{
+	position: relative;
+	background-color: #A9A9A9;
+	height:10%;
+	width:80%;
+	margin-bottom: 5%;
+	margin-left:10%;
+}
+#btn8:hover{
+	width:85%;
 }
